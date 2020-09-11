@@ -12,11 +12,11 @@ mkdir -p $INSTALLDIR
 
 # Copy the datafolder and set permissions
 cp -r $PWD/.data $INSTALLDIR/
-chmod -R 777 $INSTALLDIR/.data
+chmod -R 777 $INSTALLDIR/data
 
 # Copy and link the executable
 cp motivate.py $INSTALLDIR
 ln -s $INSTALLDIR/motivate.py /usr/local/bin/motivate
 echo motivate >> ~/.bashrc
-rm -r .data
+rm -r data
 
