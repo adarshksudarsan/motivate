@@ -1,2 +1,2 @@
-# motivate
-fork of motivate
+# motivate yourself with fresh quotes
+clone the repository 
